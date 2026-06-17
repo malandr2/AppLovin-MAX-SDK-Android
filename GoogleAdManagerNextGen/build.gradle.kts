@@ -3,11 +3,11 @@ plugins {
     id("com.applovin.mobile.publish")
 }
 
-val libraryVersionName by extra("25.3.0.0")
+val libraryVersionName by extra("1.2.1.0")
 val minAppLovinSdkVersion by extra("13.0.0")
 
 applovinMobilePublish {
-    libraryArtifactId.set("google-ad-manager-adapter")
+    libraryArtifactId.set("google-next-gen-ad-manager-adapter")
 }
 
-android.defaultConfig.minSdk = 23
+android.defaultConfig.minSdk = 24

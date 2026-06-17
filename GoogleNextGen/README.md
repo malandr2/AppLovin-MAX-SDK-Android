@@ -1,1 +1,1 @@
-# Google AdMob Adapter
+# Google Next-Gen AdMob Adapter

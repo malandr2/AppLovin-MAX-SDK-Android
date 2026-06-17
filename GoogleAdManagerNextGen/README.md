@@ -1,1 +1,1 @@
-# Google Ad Manager Adapter
+# Google Next-Gen Ad Manager Adapter
