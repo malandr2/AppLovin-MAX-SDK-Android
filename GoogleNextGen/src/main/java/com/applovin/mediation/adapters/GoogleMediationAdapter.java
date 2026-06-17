@@ -38,6 +38,7 @@ import com.applovin.mediation.adapter.parameters.MaxAdapterInitializationParamet
 import com.applovin.mediation.adapter.parameters.MaxAdapterParameters;
 import com.applovin.mediation.adapter.parameters.MaxAdapterResponseParameters;
 import com.applovin.mediation.adapter.parameters.MaxAdapterSignalCollectionParameters;
+import com.applovin.mediation.adapters.google.BuildConfig;
 import com.applovin.mediation.nativeAds.MaxNativeAd;
 import com.applovin.mediation.nativeAds.MaxNativeAdView;
 import com.applovin.sdk.AppLovinSdk;
@@ -224,7 +225,7 @@ public class GoogleMediationAdapter
     @Override
     public String getAdapterVersion()
     {
-        return "1.2.1.0";
+        return BuildConfig.VERSION_NAME;
     }
 
     @Override
